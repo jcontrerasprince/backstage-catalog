@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1beta2
 kind: Template
 metadata:
-  name: prime-nestjs
-  title: Example Nest.js Template from Prime
-  description: An example template for the scaffolder that creates a simple Nest.js service developed by the Prime team
+  name: awesome-nestjs
+  title: Example Nest.js Template from Awesome
+  description: An example template for the scaffolder that creates a simple Nest.js service developed by the Awesome team
 spec:
   owner: user:guest
   type: service
@@ -31,6 +31,7 @@ spec:
           ui:options:
             allowedHosts:
               - bitbucket.org
+              - github.com
 
   steps:
     - id: fetch-base
