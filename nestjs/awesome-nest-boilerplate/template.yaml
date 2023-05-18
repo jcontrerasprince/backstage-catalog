@@ -44,9 +44,9 @@ spec:
 
     - id: publish
       name: Publish
-      action: publish:github
+      action: publish:bitbucketCloud
       input:
-        allowedHosts: ['github.com']
+        allowedHosts: ['bitbucket.org']
         description: This is ${{ parameters.name }}
         repoUrl: ${{ parameters.repoUrl }}
 
